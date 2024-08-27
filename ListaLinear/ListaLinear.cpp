@@ -105,7 +105,7 @@ void inserirElemento()
 
 		if (pos != -1)
 		{
-			cout << "Elemento já esta na lista" << endl;
+			cout << "Elemento ja esta na lista" << endl;
 		}
 		else
 		{
@@ -131,6 +131,7 @@ void excluirElemento()
 			lista[x] = lista[x+1];
 		}
 		nElementos--;
+			cout << "O seguinte elemento foi excluido: " << pos << endl;
 	}
 	else
 	{
